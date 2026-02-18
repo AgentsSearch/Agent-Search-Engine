@@ -1,0 +1,56 @@
+{
+  "agent_id": "string",
+  "name": "string",
+  "source": "string",
+  "source_url": "string",
+  
+  "description": "string",
+  
+  "tools": [
+    {
+      "name": "string",
+      "description": "string"
+    }
+  ],
+  "detected_capabilities": ["string"],
+  "llm_backbone": "string",
+  
+  "arena_elo": null,
+  "arena_battles": null,
+  "community_rating": null,
+  "rating_count": 0,
+
+  "pricing": "string",
+  "last_updated": "string",
+  "indexed_at": "string",
+  
+  "description_embedding": null,
+  "testability_tier": "string",
+  
+  "documentation": {
+    "readme": "string",
+    "detail_page": "string"
+  },
+  
+  "documentation_chunks": [
+    {
+      "chunk_id": 0,
+      "text": "string",
+      "start_pos": 0,
+      "end_pos": 2048,
+      "token_count_estimate": 512,
+      "source_type": "string",
+      "agent_id": "string"
+    }
+  ],
+  
+  "documentation_quality": 0.0,
+  "quality_rationale": "string",
+  "llm_text_source": "string",
+  
+  "llm_extracted": {
+    "capabilities": ["string"],
+    "limitations": ["string"],
+    "requirements": ["string"]
+    }
+}
